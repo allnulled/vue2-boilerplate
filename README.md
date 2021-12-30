@@ -13,12 +13,15 @@ These are the main features that make interesting this project:
  - AJAX - [`axios`](https://github.com/axios/axios)
  - Push notifications - [`push.js`](https://github.com/Nickersoft/push.js/)
  - Checkings - [`@allnulled/check-that`](https://github.com/allnulled/check-that)
+ - UI utilities - [`vue-draggable`](https://github.com/SortableJS/Vue.Draggable)
  - Form components
  - Navigation
  - Badges
  - Dialogs
  - Customizable styles
- - Utilities
+ - Customizable utilities
+ - Landing screen
  - Application metadata
+ - Roboto font by default
  - Others...
 

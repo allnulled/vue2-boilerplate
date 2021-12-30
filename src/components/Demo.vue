@@ -17,6 +17,8 @@
                 <li><span class="link_like" v-on:click="$utils.scrollToElement($refs['Routing'])">Routing</span></li>
                 <li><span class="link_like" v-on:click="$utils.scrollToElement($refs['Styles'])">Styles</span></li>
                 <li><span class="link_like" v-on:click="$utils.scrollToElement($refs['Forms'])">Forms</span></li>
+                <li><span class="link_like" v-on:click="$utils.scrollToElement($refs['Push_notifications'])">Push notifications</span></li>
+                <li><span class="link_like" v-on:click="$utils.scrollToElement($refs['Checkings'])">Checkings</span></li>
             </ol>
         </div>
         <hr />

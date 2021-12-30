@@ -6,10 +6,10 @@
   [x] Use 'Loading dialog'
   [x] Centered horizontal and vertical
   [x] Only modal
-[ ] Routing
-  [ ] HomePage
-  [ ] ContactPage
-  [ ] AboutPage
+[x] Routing
+  [x] HomePage
+  [x] ContactPage
+  [x] AboutPage
 [ ] Forms
   [ ] Use 'presetOnChange'
   [ ] Use 'presetLabel'
