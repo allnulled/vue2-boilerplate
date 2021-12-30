@@ -4,9 +4,12 @@
       <div class="position_fixed top_0 left_0 right_0">
         <div class="topbar_height" style="margin-top: 2px;"></div>
         <div class="position_absolute navigation_component" :class="{ is_selected: is_opened }">
-          <div class="">
-            Here you can put whatever you want to have at the navigation menu.
-          </div>
+          <ul class="">
+            <li v-on:click="() => is_opened = false"><router-link to="/home">Home</router-link></li>
+            <li v-on:click="() => is_opened = false"><router-link to="/contact">Contact</router-link></li>
+            <li v-on:click="() => is_opened = false"><router-link to="/about">About</router-link></li>
+            <li v-on:click="() => is_opened = false"><router-link to="/demo">Demo</router-link></li>
+          </ul>
         </div>
       </div>
     </div>

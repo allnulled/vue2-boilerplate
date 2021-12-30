@@ -6,9 +6,9 @@ Vue project boilerplate with some interesting features included.
 
 These are the main features that make interesting this project:
 
- - Internationalization - [`i18next`](https://github.com/i18next/i18next)
+ - Internationalization - [`i18next`](https://github.com/i18next/i18next) + [`vue-i18next`](https://github.com/panter/vue-i18next)
  - Routing - [`vue-router`](https://github.com/vuejs/vue-router)
- - Local database - [`dexie`](https://github.com/dexie/Dexie.js)
+ - Local database - [`dexie`](https://github.com/dexie/Dexie.js) + [`dexie-relationships`](https://github.com/ignasbernotas/dexie-relationships)
  - Local storage - [`localStorage`](https://developer.mozilla.org/es/docs/Web/API/Window/localStorage)
  - AJAX - [`axios`](https://github.com/axios/axios)
  - Push notifications - [`push.js`](https://github.com/Nickersoft/push.js/)
