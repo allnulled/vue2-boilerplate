@@ -1,24 +1,24 @@
-# aaabstractdb
+# vue2-boilerplate
 
-## Project setup
-```
-npm install
-```
+Vue project boilerplate with some interesting features included.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Features
 
-### Compiles and minifies for production
-```
-npm run build
-```
+These are the main features that make interesting this project:
 
-### Lints and fixes files
-```
-npm run lint
-```
+ - Internationalization - [`i18next`](https://github.com/i18next/i18next)
+ - Routing - [`vue-router`](https://github.com/vuejs/vue-router)
+ - Local database - [`dexie`](https://github.com/dexie/Dexie.js)
+ - Local storage - [`localStorage`](https://developer.mozilla.org/es/docs/Web/API/Window/localStorage)
+ - AJAX - [`axios`](https://github.com/axios/axios)
+ - Push notifications - [`push.js`](https://github.com/Nickersoft/push.js/)
+ - Checkings - [`@allnulled/check-that`](https://github.com/allnulled/check-that)
+ - Form components
+ - Navigation
+ - Badges
+ - Dialogs
+ - Customizable styles
+ - Utilities
+ - Application metadata
+ - Others...
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

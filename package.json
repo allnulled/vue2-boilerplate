@@ -1,9 +1,9 @@
 {
-  "name": "aaabstractdb",
+  "name": "vue2-boilerplate",
   "version": "1.0.0",
   "private": true,
-  "description": "",
-  "author": "",
+  "description": "Vue project boilerplate: i18n, routing, local database, form components, etc...",
+  "author": "allnulled",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -12,13 +12,17 @@
   },
   "main": "index.js",
   "dependencies": {
+    "@allnulled/check-that": "0.0.1",
     "@panter/vue-i18next": "^0.15.2",
+    "axios": "^0.24.0",
     "core-js": "^3.6.5",
+    "dexie": "^3.2.0",
     "i18next": "^21.6.3",
+    "i18next-browser-languagedetector": "^6.1.2",
+    "push.js": "^1.0.12",
     "vue": "^2.6.11",
     "vue-router": "^3.5.3",
-    "vuedraggable": "^2.24.3",
-    "zangodb": "^1.0.8"
+    "vuedraggable": "^2.24.3"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
@@ -48,8 +52,8 @@
     "last 2 versions",
     "not dead"
   ],
-  "_id": "aaabstractdb@1.0.0",
+  "_id": "vue2-boilerplate@1.0.0",
   "keywords": [],
-  "license": "ISC",
-  "readme": "ERROR: No README data found!"
+  "license": "WTFPL",
+  "readme": "README.md"
 }

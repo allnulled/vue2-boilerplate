@@ -1,0 +1,25 @@
+/* STYLES THAT OVERRIDE "app.css" */
+
+
+
+.button {
+    border: 1px solid #CCCCCC;
+    background-color: #FFFFFF;
+    border-radius: 0pt;
+    cursor: pointer;
+}
+.button:hover {
+    opacity: 1;
+}
+
+.shadowed {
+    box-shadow: 0 0 1px black;
+}
+
+.background_color_1 {
+    background-color: #FFFFFF;
+}
+
+.opacity_09 {
+    opacity: 0.9;
+}
