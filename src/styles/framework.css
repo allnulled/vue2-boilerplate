@@ -23,6 +23,7 @@ body {margin: 0px;}
 /* WIDTH */
 .width_auto {width: auto;}
 .width_1x100 {width: 1%;}
+.width_50x100 {width: 50%;}
 .width_100x100 {width: 100%;}
 
 /* HEIGHT */

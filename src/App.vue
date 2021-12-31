@@ -1,9 +1,21 @@
 <template>
   <div id="app">
+    <!--
     <WelcomeView v-if="!is_loaded" />
     <div class="app_header">
       <Navigation ref="Navigation" />
       <Topbar ref="Topbar" />
+    </div>
+    -->
+    <div class="app_navigation">
+      <div class="display_table width_100x100">
+        <div class="display_table_cell width_50x100">
+          <button class="navigation_button" :class="{selected: $route.path.startsWith('/tareas')}" v-on:click="() => goToPath('/tareas')">Tareas</button>
+        </div>
+        <div class="display_table_cell width_50x100">
+          <button class="navigation_button" :class="{selected: $route.path.startsWith('/horas')}" v-on:click="() => goToPath('/horas')">Horas</button>
+        </div>
+      </div>
     </div>
     <div class="app_static">
       <BadgeViewer ref="BadgeViewer" />
@@ -33,7 +45,13 @@ export default {
       is_loaded: false,
     };
   },
-  methods: {},
+  methods: {
+    goToPath(newPath) {
+      if(this.$route.path !== newPath) {
+        this.$router.push(newPath);
+      }
+    }
+  },
   async beforeCreate() {
     try {
       this.$root = this;
@@ -50,8 +68,8 @@ export default {
       await this.$dialogs.initialize(this);
       await this.$badges.initialize(this);
       // @TODO: remove this conditional once you get the thing:
-      if(!this.$route.path.startsWith('/demo')) {
-        this.$router.push("/demo");
+      if(!this.$route.path.startsWith("/horas")) {
+        this.$router.push("/horas");
       }
       await this.$utils.timeout(3000);
       this.is_loaded = true;
@@ -81,5 +99,24 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
   margin-top: 0px;
+}
+.navigation_button {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #DDDDDD;
+  border-left: 0px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 17px;
+  color: #333333;
+  text-shadow: 0 0 1px #333333;
+  text-transform: uppercase;
+  background-color: #FFFFFF;
+}
+.navigation_button:hover {
+  background-color: #EEEEEE;
+}
+.navigation_button.selected {
+  background-color: #DDDDDD;
 }
 </style>

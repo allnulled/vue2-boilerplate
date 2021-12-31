@@ -29,7 +29,7 @@ class Database {
     select(table, ...args) {
         console.log("Not available yet");
         // @TODO....
-        this.$noop(table, reducer);
+        this.$noop(table, ...args, $check);
     }
 
     insert(table, item) {

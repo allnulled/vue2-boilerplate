@@ -1,1 +1,94 @@
 /* IN BLANK FOR NEW USERS TO OVERRIDE ALL THE STYLES */
+
+button.control,
+input[type='text'].control {
+    width: 100%;
+    background: #DDDDDD;
+    color: #333333;
+    padding: 5px;
+    border: 1px solid #666666;
+    cursor: pointer;
+}
+
+input[type='text'].control {
+    border-radius: 2pt;
+}
+
+span.control,
+button.control {
+    color: #000000;
+    font-weight: bold;
+    border-radius: 4pt;
+    border: 1px solid #888888;
+    background: rgb(150,150,150);
+    background: linear-gradient(180deg, rgba(150,150,150,1) 0%, rgba(210,210,210,1) 50%, rgba(150,150,150,1) 100%); 
+}
+
+input[type='text'].control:focus {
+    background-color: #F8F8F8;
+}
+
+button.circle_button {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #888888;
+    box-shadow: 0 0 1px black;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 10px;
+    padding: 0;
+    background: rgb(150,150,150);
+    background: linear-gradient(180deg, rgba(150,150,150,1) 0%, rgba(210,210,210,1) 50%, rgba(150,150,150,1) 100%); 
+    cursor: pointer;
+}
+
+button.control:hover,
+span.control:hover,
+input[type='text'].control:hover,
+button.circle_button:hover {
+    background: #EEEEEE;
+}
+
+.font_small {
+    font-size: 12px;
+}
+
+ul.selectable_tasks_list,
+ul.selectable_tasks_list > li,
+ul.selectable_tasks_list > li > span {
+    width: 100%;
+}
+
+ul.selectable_tasks_list > li > span {
+    display: inline-block;
+    border: 1px solid #E0E0E0;
+}
+
+ul {
+    padding: 0;
+    padding-left: 20px;
+    margin: 0;
+}
+
+li {
+    
+}
+
+.selected_button,
+.selected_task {
+    background: #DDDDDD !important;
+}
+
+.completed_task {
+    text-decoration:line-through;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+html, #app {
+    background-color: #333333;
+    color: #FFFFFF !important;
+}

@@ -1,21 +1,12 @@
 export default (components) => {
     return [
         {
-            path: "/home",
-            component: components.HomePage,
+            path: "/horas",
+            component: components.HorasPage,
         },
         {
-            path: "/about",
-            component: components.AboutPage,
+            path: "/tareas",
+            component: components.TareasPage,
         },
-        {
-            path: "/contact",
-            component: components.ContactPage,
-        },
-        // @TODO: drop this page when you get the thing
-        {
-            path: "/demo",
-            component: components.Demo,
-        }
     ];
 }

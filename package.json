@@ -1,8 +1,8 @@
 {
-  "name": "vue2-boilerplate",
+  "name": "tiempometria",
   "version": "1.0.0",
   "private": true,
-  "description": "Vue project boilerplate: i18n, routing, local database, form components, etc...",
+  "description": "App to manage the time of the day easily",
   "author": "allnulled",
   "scripts": {
     "serve": "vue-cli-service serve",

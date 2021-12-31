@@ -1,17 +1,17 @@
 export default {
-    app: "Vue 2 Application Boilerplate",
+    app: "Tiempometría",
     version: "0.0.1",
-    url: "https://github.com/allnulled/vue2-boilerplate",
+    url: "https://github.com/allnulled/tiempometria",
     author: {
         name: "allnulled",
         url: "https://github.com/allnulled"
     },
     settings: {
         storage: {
-            id: "VUE_2_APPLICATION_BOILERPLATE_STORAGE",
+            id: "TIEMPOMETRIA_APP_STORAGE",
         },
         database: {
-            id: "VUE_2_APPLICATION_BOILERPLATE_DATABASE"
+            id: "TIEMPOMETRIA_APP_DATABASE"
         },
         server: {
             baseURL: "https://github.com/allnulled/"

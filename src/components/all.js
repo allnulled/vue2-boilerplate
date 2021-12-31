@@ -14,6 +14,8 @@ import ControlForTextarea from "./forms/ControlForTextarea.vue";
 import Footer from "./footer/Footer.vue";
 
 import WelcomeView from "./welcome/WelcomeView.vue";
+import HorasPage from "./pages/HorasPage.vue";
+import TareasPage from "./pages/TareasPage.vue";
 import HomePage from "./pages/HomePage.vue";
 import AboutPage from "./pages/AboutPage.vue";
 import ContactPage from "./pages/ContactPage.vue";
@@ -42,4 +44,6 @@ export default {
     ContactPage,
     // @TODO: drop this line too:
     Demo,
+    HorasPage,
+    TareasPage,
 };
