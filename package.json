@@ -5,7 +5,8 @@
   "description": "App to manage the time of the day easily",
   "author": "allnulled",
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "NODE_OPTIONS=--openssl-legacy-provider npm run serve-internal",
+    "serve-internal": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "test": "echo \"Error: no test specified\" && exit 1"
